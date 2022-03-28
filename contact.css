@@ -1,0 +1,515 @@
+@keyframes load {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+
+@font-face{
+    src:url(fonts/Noto_Sans/);
+    font-family: 'Noto_Sans', sans-serif;
+}
+
+@font-face{
+    src:url(fonts/EB_Garamond/);
+    font-family: 'EB Garamond', serif;
+}
+
+html {
+     animation: load 2s ease-in-out forwards;
+}
+
+body {
+    color:#210000;
+    background-color: #f8f7f4;
+    opacity: 0.9;
+    font-family: 'EB Garamond', serif;
+    background-image: url('images/pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+
+button, input, textarea, select, a {
+    font:inherit;
+}
+
+h1, h2, h3,h4 {
+    font-family: 'Noto_Sans', sans-serif;
+}
+
+h1, footer{
+    background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+    box-shadow: 5px 5px 35px grey;
+}
+/*
+h1{
+
+    color:#af2304;
+      text-shadow: 5px 2px 10px gray;
+    
+    padding: 0.75em;
+    text-align: center;
+    border-radius: 5px;
+    width:60%;
+    margin:10px auto;
+    font-weight: 500;
+    font-size: 2rem;
+}*/
+
+h1{
+    color:#af2304;
+    text-shadow: 5px 2px 10px gray;
+    padding: 0.75em;
+    text-align: center;
+    border-radius: 5px;
+    width:60%;
+    margin:10px auto;
+    font-weight: 400;
+    font-size: 1.9rem;
+
+    background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+    box-shadow: 5px 5px 35px grey;
+    margin:0.5em;
+    border-radius: 5px;
+    max-height: 7em;
+    
+    margin:0.5em  auto;
+    border: 1px ridge #8c774f;
+}
+
+
+.logo {
+    display:flex;
+background-color:transparent;
+
+
+}
+
+.logo>h1{
+    align-self: center;
+    
+}
+
+.nafas{
+    background:transparent;
+  
+    padding:0.35em 0.25em 1.65em 0.25em;
+    margin-top:1em;
+    margin-bottom:0.2em;
+    height:5.5em;
+    width:7em;
+    box-shadow: 2px 2px -5px #262401;
+    text-align:center;
+    align-content: center;
+   font-size: 0.95rem;
+    border:2px ridge white;
+    
+
+}
+
+#nafas-uk{
+    visibility:visible;
+}
+
+
+
+.nafas:hover{
+    height:5.5em;
+    box-shadow: 2px 2px -5px #262401;
+    background-color:white;
+}
+    
+
+
+#menuContact{
+    display:none;
+}
+
+
+nav{
+    /*border: 3px ridge white;*/
+    width:80%;
+    margin-inline:auto; 
+    margin-top:2.5rem;
+    /*margin:40px auto 10px auto;*/
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+        
+       
+}
+
+a {
+    text-decoration: none;
+    color:#210000;
+        padding: 0.5em 1.5em;
+    margin: 0 0.5em;
+    font-size:1.25rem;
+        border-radius: 5px;
+        border: 1px ridge #8c774f;
+        box-shadow: 10px 10px 25px grey;
+        background-color: #f8f7f4;
+        opacity: 0.8;
+         font-family: 'Noto_Sans', sans-serif;   
+}
+
+
+nav>a:hover{
+    color:#af2304;
+    opacity:1;
+}
+
+h2{
+    padding:1em;
+    margin:0.7em auto;
+    width:60%;
+    box-shadow: 10px 10px 25px grey;
+    border-radius: 5px;
+    color:#af2304;
+    font-weight: 500;
+    font-size: 1.65rem;
+   background-color:#f8f7f4;
+    opacity: 0.85;
+     box-shadow: 10px 10px 25px grey;
+      text-shadow: 5px 2px 10px gray;
+      text-align: center;
+     
+    
+}
+
+h5{
+    margin:0;
+}
+
+
+
+.contact>p{
+    margin-top:0.5em;
+}
+
+.contact > h4 {
+    margin-bottom:0.75em;
+}
+
+
+
+main{
+    width:80%;
+     border: 1px ridge white;
+    margin:1em auto;
+  /*  display:flex;
+    align-items: space-between;*/
+    
+}
+
+#fb-icon{
+    width:3em;
+    height:3em;
+}
+
+#fb-link{
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+}
+
+
+#fb-icon:hover{
+    width:3.1em;
+    height:3.1em;
+}
+
+.contact{
+   
+    border-radius: 5px;
+    padding:0.5em 2.5em;
+    margin:1em auto;
+    box-shadow: 10px 10px 25px grey;
+    display: flex;
+   
+    
+}
+
+.contact > section{
+    background-color:#f8f7f4;
+    opacity:0.85;
+    padding:1.5em;
+    margin:0.5em;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px grey;
+}
+
+#contact-form{
+    opacity: 0;
+    display:none;
+}
+
+form{
+    width:90%;
+    border: 1px ridge white;
+    padding:2em;
+    border-radius: 5px;
+    border:none;   
+        box-shadow: 10px 10px 25px grey;
+        
+     
+        opacity: 0;
+    
+    margin:1em auto;
+     text-shadow: 5px 2px 10px gray;
+    
+}
+
+#second-nav-contact{
+    display:none;
+}
+
+
+
+form >h4 {
+    margin-top:0;
+    text-shadow: 5px 2px 10px gray;
+    background-color:#f8f7f4;
+    padding:1em;
+    opacity:0.9;
+    border-radius: 5px;
+    text-align: center;
+     box-shadow: 10px 10px 25px grey;
+}
+
+label{
+    margin:1em;
+}
+
+input{
+    margin:1em;
+}
+
+@keyframes spin1 { 
+    0% { opacity: 0; }
+    100% { opacity: 0.95;} }
+
+@keyframes fade { 
+    0% { opacity: 1; }
+    100% { opacity: 0;}
+}
+
+#write-us{
+    display:flex;
+    flex-direction:column;
+}
+
+#write-us>a{
+    max-width:70%;
+}
+
+#button {
+    align-self: center;
+    
+  text-align: center;
+    padding: 0.5em 1.35em;
+    border-radius: 5px;
+   
+   background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+     color:#210000;
+      font-size:1rem;
+      font-weight:500;
+      border: #210000 1px ridge;
+       box-shadow: 10px 10px 25px grey;
+       opacity:1;
+}
+
+#button:hover{
+    color:#af2304;
+    background-image: none;
+    background-color: #f2d479;
+    border: #210000 1px ridge;
+}
+
+
+
+#send-btn {
+    margin-top: 1em;
+    margin-left:18em; 
+}
+
+textarea{
+    border:0;
+    border-radius: 5px;
+    padding:0.5em;
+    box-shadow: 10px 10px 25px grey;
+    margin:2em;
+
+}
+
+#back-btn{
+    padding: 0.25em 1.5em;
+    font-size:1rem;
+    margin-left: 5em;
+    color:#210000;
+}
+
+#back-btn:hover{
+    opacity: 1;
+    background-color:#f2d479;
+    color:#af2304;
+}
+
+footer {
+    padding: 0.45em;
+    text-align: center;
+    width:80%;
+    margin:1em auto;
+    border-radius: 5px;
+    color:#af2304;
+    font-size:1rem;
+    display:flex;
+    justify-content: space-evenly;
+    background-image: none;
+  
+ 
+}
+
+footer>p{
+    align-self: center;
+}
+
+footer >a {
+
+    color:#af2304;
+    background-color: inherit;
+    box-shadow: none;
+    font-size: 0.7rem;
+     border: 0.5px ridge #8F7A4F;
+     width:5em;
+    
+}
+
+footer > a:hover {
+    background-color:#CFD0CB;
+     box-shadow: 1px 1px -1px #262401;
+    
+ 
+
+
+}
+
+.brown-logo{
+   
+    width:3em;
+    height:4em;
+    margin-top:0.1em;
+    padding:0.25em;
+    box-shadow: none;
+    border: none;
+    
+}
+
+
+/*
+footer {
+    padding: 1.5em;
+    text-align: center;
+    width:74%;
+    margin:0 auto;
+    border-radius: 5px;
+    color:#af2304;
+    font-size:1.25rem;
+    background-image: none;
+    border: 1px ridge white;
+ 
+}
+
+footer >a {
+
+    color:#af2304;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+footer > a:hover {
+ box-shadow: 10px 10px 35px #262401;
+ border:#8c774f 1px ridge;
+}*/
+
+
+
+
+@media screen and (max-width:1050px){
+    nav{flex-wrap:wrap;}
+    h1{font-size: 2rem;}
+    a {margin: 0.5rem;}
+    h2 {font-size: 1.5rem;}
+    main{width:100%;}
+   #write-us>a{
+       font-size: 1rem;
+       max-width: 80%;
+   }
+   h4,p {font-size:0.9rem;}
+   h4{margin-top:0.5em;}
+    
+}
+
+
+@media screen and (max-width:450px){
+    nav {flex-direction: column;
+        display: none;}
+    a {   font-size: 0.8rem;
+        text-align: center;}
+    h1{font-size:1.35rem;}
+    img{display:none;}
+        .magnet {width:inherit;}
+    h2{font-size: 1.15rem;}
+    .lower {
+        flex-direction: column;}
+    footer {padding:0.5em;}
+    .contact {
+        flex-direction: column;
+    }
+    main {
+        width:90%;
+    }
+   #write-us{
+       display:none;
+   }
+
+
+ #second-nav-contact{
+        display:none;
+        
+        flex-direction: column;
+        max-width:90%;
+        margin:0 auto;
+    }
+    #second-nav-contact a{
+        color:#af2304;
+        
+         /*background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+       */ font-size: 1.5rem;
+        text-align: center;
+         margin:0.15em;
+         border:1px ridge white;
+        
+    }
+   
+#subheading{
+    font-size: 1.15rem;
+    padding:0.7em 2.8em;
+}
+    
+      #menuContact{
+        display:block;
+        margin-top: 0.5em;
+        background-image:none;
+        font-weight: 400;
+        padding: 0.5em;
+
+    }
+}

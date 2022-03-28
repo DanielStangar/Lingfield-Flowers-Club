@@ -1,0 +1,305 @@
+@keyframes load {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+@font-face{
+    src:url(fonts/Noto_Sans/);
+    font-family: 'Noto_Sans', sans-serif;
+}
+
+@font-face{
+    src:url(fonts/EB_Garamond/);
+    font-family: 'EB Garamond', serif;
+}
+
+html {
+     animation: load 2s ease-in-out forwards;
+}
+
+
+body {
+   color:#210000;
+    background-color: #f8f7f4;
+    opacity: 0.9;
+   font-family: 'EB Garamond', serif;
+    background-image: url('images/pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+h1, h2, h3,h4 {
+     font-family: 'Noto_Sans', sans-serif;
+}
+
+h1, footer{
+    background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+    box-shadow: 5px 5px 35px grey;
+}
+h1{
+
+    color:#af2304;
+      text-shadow: 5px 2px 10px gray;
+    
+    padding: 0.75em;
+    text-align: center;
+    border-radius: 5px;
+    width:60%;
+    margin:10px auto;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#menuFloristry {
+    display: none;
+    min-width: 80%;
+    color:#210000;
+    color:#af2304;
+    font-weight: 400;
+    padding: 0.25em 0.65em;
+
+}
+
+
+
+nav{
+    /*border: 3px ridge white;*/
+    width:80%;
+    margin-inline:auto; 
+    margin-top:2.5rem;
+    /*margin:40px auto 10px auto;*/
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+     
+        
+       
+}
+
+a {
+    text-decoration: none;
+    color:#210000;
+        padding: 0.5em 1.5em;
+    margin: 0 0.5em;
+    font-size:1.35rem;
+        border-radius: 5px;
+        border: 1px ridge #8c774f;
+        box-shadow: 10px 10px 25px grey;
+       background-color: #f8f7f4;
+        opacity: 0.8;
+        font-family: 'Noto_Sans', sans-serif;
+}
+
+nav>a:hover{
+    color:#af2304;
+    opacity: 1;
+    
+}
+
+main{
+    display: flex;
+   padding:1.5em;
+  
+  justify-content: center;
+    
+}
+
+
+section{
+    border: 1px ridge white;
+    border-radius: 5px;
+    max-width:35%;
+    padding: 1.5em;
+    margin: 0.5em 3em;
+  /*  margin-left: 5em;*/
+     box-shadow: 10px 10px 25px grey;
+    
+}
+
+section > h3 {
+    font-size: 1.6rem;
+    font-weight:500;
+    text-align: center;
+     text-shadow: 5px 2px 10px gray;
+     padding: 0.2em 2em;
+    
+}
+
+section > p {
+    padding: 0.5em 2.5em;
+    font-size: 1.15rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#210000;
+    
+}
+
+.florists-links{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.florists-links>a{
+    border: 1px ridge white;
+    padding: 1em 2.5em;
+    margin:0.5em;
+    text-align: center;
+    background-color:#CFD0CB;
+    background-color:transparent ;
+   background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+ box-shadow: 5px 5px 15px grey;
+    border-radius: 5px;
+     
+     
+     opacity:0.8;
+     width:40%;
+     font-weight: 500; 
+     font-size: 1.1rem;
+    
+}
+
+.florists-links>a:hover{
+    background-image: none;
+    background-color:#d9d4cc;
+    border: 1px ridge #210000;
+    color:#af2304;
+    
+}
+
+img{
+    object-fit:contain;
+    max-width: 100%; 
+    border-radius: 5px;
+    
+}
+
+#second-nav-floristry{
+    display:none;
+}
+
+
+footer {
+    padding: 1.5em;
+    text-align: center;
+    width:80%;
+    margin:2em auto;
+    border-radius: 5px;
+    color:#af2304;
+    font-size:1.25rem;
+ 
+}
+
+footer >a {
+
+    color:#af2304;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+footer > a:hover {
+ box-shadow: 10px 10px 35px #262401;
+ border:#8c774f 1px ridge;
+}
+
+
+@media screen and (max-width:1050px){
+    nav{flex-wrap:wrap;}
+    h1{font-size: 2rem;}
+    a {margin: 0.5rem;}
+    h2,h3,h4 {font-size: 0.85rem;}
+    .task{margin:0;}
+    .lower>a {margin:0;}
+    .upper {max-height: 170px;}
+    #img {display:none;}
+    #text {max-width:100%;
+    margin-top:0;}
+    
+}
+
+@media screen and (max-width:450px){
+    nav {display: none;}
+   
+    h1{text-align: center;
+    font-size: 1.25rem;
+    max-width:80%}
+   
+   
+    #text {
+        max-width:100%;
+
+        }
+
+    p {
+        margin: 0;
+    }
+
+    #img{
+        display: none;
+    }
+    section{
+        margin:0 0.2em;
+        padding:0.5rem;
+    }
+
+    .florists-links>a{
+        
+       font-weight: 300;
+        padding: 0.5em;
+        
+    }
+    footer{
+        font-size: 1rem;
+        margin-top:0;
+        padding:1em;
+    }
+
+    footer > a {
+        font-size: 1rem;
+        padding: 0.5em;
+    }
+
+     #second-nav-floristry{
+        display:none;
+        
+        flex-direction: column;
+        max-width:90%;
+        margin:0 auto;
+    }
+    #second-nav-floristry a{
+        color:#af2304;
+    
+         /*background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
+       */ font-size: 1.5rem;
+        text-align: center;
+         margin:0.15em;
+         border:1px ridge white;
+         }
+
+    
+    #second-nav a:hover{
+    color:#210000;
+    opacity: 1;
+    
+}
+
+    #menuFloristry{
+        display:block;
+        margin-top: 0.5em;
+        background-image:none;
+        font-weight: 400;
+
+    }
+
+}
+
+
+
+
+
