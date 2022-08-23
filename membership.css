@@ -12,9 +12,11 @@ body {
     background-color: #f8f7f4;
     opacity: 0.9;
     font-family:Source Serif Pro, serif;
-    background-image: url('images/pngwing.com.png');
+    background-image: url('pics/pngwing.com.png');
     background-repeat: no-repeat;
     background-size: cover;
+   
+    
     
     
     }
@@ -80,8 +82,15 @@ nav>a:hover{
     opacity:1;
 }
 
+#whats-on-btn{
+    min-width:90px;
+}
+
 main{
     margin: 0 auto;
+    margin-bottom:5em;
+    max-height: 80vh;
+    max-width: 1500px;
 }
 
 section{
@@ -90,22 +99,23 @@ section{
       text-shadow: 5px 10px 15px gray;
       display: flex;
       flex-direction: column;
-      margin:1em;
+      margin:0.7em auto;
       border: 1px ridge white;
       border-radius: 5px;
+      max-width:70%;
 }
 
 h2{
     padding:0.5em;
-    margin:0.5em 4.25em;
+    margin:0.35em 4.25em;
     width:50%;
     box-shadow: 20px 10px 25px grey;
        text-shadow: 5px 10px 15px gray;
     border-radius: 5px;
     color:#210000;
+    color:#af2304;
     font-weight: 500;
     font-size: 1.65rem;
-    background-color:transparent;
     background-color: #f8f7f4;
    
     
@@ -113,7 +123,7 @@ h2{
      box-shadow: 10px 10px 25px grey;
       text-shadow: 5px 10px 15px gray;
       text-align: center;
-    margin:1em auto;
+    margin:0.7em auto;
     border: 1px ridge white;
      
     
@@ -123,12 +133,10 @@ h2{
 
 
 ul {
-    padding: 0.5em 8em;
+    padding: 0.25em 8em;
      border-radius: 5px;
           text-shadow: 5px 10px 5px gray;
         box-shadow: 10px 10px 25px grey;
-       background-color: #f8f7f4;
-       background-color:#CFD0CB;
        background-color:transparent;
       
         opacity: 0.9;
@@ -173,13 +181,13 @@ li {
 
 
 footer {
-    padding: 1.5em;
+    padding: 1em;
     text-align: center;
     width:74%;
     margin:0 auto;
     border-radius: 5px;
     color:#af2304;
-    font-size:1.25rem;
+    font-size:1rem;
     background-image: none;
    
  
@@ -225,7 +233,8 @@ footer > a:hover {
     h2{font-size: 1.15rem;}
     .lower {
         flex-direction: column;}
-    footer {padding:0.5em;}
+    footer {padding:0.5em;
+    margin-top: 3.5em;}
 
     ul li
 {    list-style-position:inside;

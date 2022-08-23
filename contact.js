@@ -9,6 +9,7 @@ const meeting = document.getElementById('meeting')
 button.addEventListener('click', displayForm)
 
 function displayForm() {
+    console.log('clicked')
     //meeting.style.animation = 'fade 2s ease-out forwards'
     meeting.style.display='none'
     form.style.display = 'block'

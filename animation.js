@@ -2,10 +2,11 @@ const slogan = document.getElementById('slogan')
 
 const sloganOne = "We promote the art of flower arranging as a way to making friends and learning new skills."
 const sloganTwo = "Our aim is to help you design and construct your own flower arrangements."
-const sloganThree = "Right now, you can send a bouquet to someone you love..."
-const sloganFour = "or simply come to us and spend valuable time in good company."
-const sloganFive = "Give us a call, write to us, come to say hi, anything you find comfortable."
-const sloganSix = "We will be pleased to hear from you."
+const sloganThree = "You can learn a lot and get fresh inspiration from attending one of our events"
+const sloganFour = "or simply come to our club and spend valuable time in good company."
+const sloganFive = "Our upcoming club events"
+
+const sloganSix = ["Sense of Place Flower Festival", "RHS Wisley Garden Flower Show","Surrey Area Show"]
 
 
 
@@ -52,8 +53,8 @@ function promoMain(){
         learnMore.style.animation = "appear 3s ease-in forwards"
         learnMore.style.color = '#af2304'
         learnMore.style.backgroundColor = '#f2d479'
-        samples.style.backgroundColor = '#f2d479'
-       samples.style.borderColor = '#af2304'
+    //     samples.style.backgroundColor = '#f2d479'
+    //    samples.style.borderColor = '#af2304'
     }
 
     function stepTwo(){
@@ -73,8 +74,8 @@ function promoMain(){
         learnMore.href='membership.html'
         slogan.innerText = sloganTwo
         slogan.style.animation = "appear 3s ease-in forwards"
-        membership.style.backgroundColor = '#f2d479'
-        membership.style.borderColor = '#af2304'
+        // membership.style.backgroundColor = '#f2d479'
+        // membership.style.borderColor = '#af2304'
         
         
         discover.style.textShadow = '5px 2px 20px grey'
@@ -111,8 +112,8 @@ function promoMain(){
         slogan.innerText = sloganThree
         slogan.style.animation = "appear 3s ease-in forwards"
         learnMore.style.animation = "appear 3s ease-in forwards"
-        floristry.style.backgroundColor = '#f2d479'
-        floristry.style.borderColor = '#af2304'
+        // floristry.style.backgroundColor = '#f2d479'
+        // floristry.style.borderColor = '#af2304'
 
         send.style.textShadow = '5px 2px 20px grey'
         send.style.borderColor = '#af2304'
@@ -136,14 +137,15 @@ function promoMain(){
     }
 
     function stepSeven(){
+        learnMore.style.animation = 'appear 3s ease-in forwards'
         learnMore.style.color = '#af2304'
         learnMore.style.backgroundColor = '#f2d479'
         learnMore.href = 'contact.html'
         slogan.innerText = sloganFour
         slogan.style.animation = "appear 3s ease-in forwards"
         learnMore.style.animation = "appear 3s ease-in forwards"
-        contact.style.backgroundColor = '#f2d479'
-        contact.style.borderColor = '#af2304'
+        // contact.style.backgroundColor = '#f2d479'
+        // contact.style.borderColor = '#af2304'
 
         come.style.textShadow = '5px 2px 20px grey'
         come.style.borderColor = '#af2304'
@@ -165,16 +167,37 @@ function promoMain(){
         come.style.backgroundColor = '#d9d4cc'
     }
 
+
+    //const magnet =document.getElementById('magnet')
+
     function stepNine(){
-        learnMore.style.color = '#210000'
-        learnMore.style.backgroundColor = 'white'
-        learnMore.href = 'contact.html'
+        learnMore.style.animation = 'appear 3s ease-in forwards'
+        //learnMore.style.color = '#210000'
+       // learnMore.style.backgroundColor = 'white'
+        learnMore.href = 'floristry.html'
         slogan.innerText = sloganFive
         slogan.style.animation = "appear 3s ease-in forwards"
-        learnMore.style.animation = 'disappear 4s ease-out forwards'
-        lastSlogan.innerText = sloganSix
-        lastSlogan.style.animation ='appear 7s linear forwards'
-       
+        slogan.style.color='#af2304'
+        //learnMore.style.animation = 'disappear 4s ease-out forwards'
+        //lastSlogan.innerText = sloganSix
+        //lastSlogan.style.animation ='appear 7s linear forwards'
+       const listItem = document.createDocumentFragment()
+       for (let item in sloganSix){
+            const li = document.createElement('li')
+            const hr = document.createElement('hr')
+            li.textContent = sloganSix[item]
+            listItem.appendChild(li)
+            listItem.appendChild(hr)
+            lastSlogan.style.animation ='appear 7s linear forwards'
+            lastSlogan.appendChild(listItem)
+            lastSlogan.style.textAlign='center'
+            lastSlogan.style.listStyleType='none'
+            lastSlogan.style.fontSize='1rem'
+           // magnet.style.height='250%'
+            
+            
+            
+       }
     }    
 
 }

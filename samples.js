@@ -5,20 +5,6 @@
 //     const mainPic = document.getElementById('main-pic')
 //     //mainPic.src = 'images/pict14.jpg'
 
-// // setInterval(function () {
-// //     let random = Math.floor(Math.random() * 13)
-// //     mainPic.src = pictureList[random]
-    
-
-// // }, 3000)
-
-// pictureList.forEach(function (item){
-//     mainPic.src='pict1.jpg'
-// })
-
-
-
-
 const container = document.getElementById('container');
 const menuBtnSamples = document.getElementById('menuSamples')
 
@@ -35,3 +21,9 @@ function displaySamplesMenu() {
     subheading.style.display='none'
 
 }
+//const workshopsBtn = document.getElementById('workshops-btn')
+//workshopsBtn.addEventListener('click', scrollToWorkshops)
+//const element = document.getElementById('sectionThree')
+
+//function scrollToWorkshops(){
+ //   element.scrollIntoView({behavior:'smooth', block:'center', inline:'nearest'}}

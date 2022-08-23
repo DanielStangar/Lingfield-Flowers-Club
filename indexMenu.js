@@ -1,4 +1,4 @@
-const nav = document.querySelector('nav')
+const nav = document.getElementById('second-nav-home')
 const lower = document.getElementById('lower')
 const upper = document.getElementById('upper')
 const footer = document.querySelector('footer')

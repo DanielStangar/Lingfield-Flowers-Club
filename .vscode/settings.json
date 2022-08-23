@@ -4,5 +4,9 @@
         "titleBar.activeBackground": "#094A2A",
         "titleBar.activeForeground": "#EEFDF6"
     },
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": true,
+    "sync.forceUpload": true
 }
