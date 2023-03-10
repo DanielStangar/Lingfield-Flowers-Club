@@ -460,7 +460,6 @@ document.addEventListener('click', extractId );
 
 function extractId(e) {
     let elementId = e.target.id
-    console.log('caughtID ' + elementId) 
 
 //compares extracted id with an id on the list and gives name for the picture
     captions.forEach(myFunction)

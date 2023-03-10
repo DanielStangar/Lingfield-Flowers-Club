@@ -9,16 +9,12 @@ const meeting = document.getElementById('meeting')
 button.addEventListener('click', displayForm)
 
 function displayForm() {
-    console.log('clicked')
-    //meeting.style.animation = 'fade 2s ease-out forwards'
     meeting.style.display='none'
     form.style.display = 'block'
     contactForm.style.display ='block'
     form.style.animation = "spin1 2s ease-out forwards"
     container.style.animation ='spin1 2s ease-out forwards'
 }
-
-
 
 
 //using MENU button displaying NAV and making the main part disappear, only for smart phones
@@ -38,4 +34,6 @@ function displayContactMenu() {
     subheading.style.display = 'none'
 
 }
+
+
 
