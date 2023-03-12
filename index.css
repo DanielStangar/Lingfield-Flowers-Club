@@ -267,7 +267,7 @@ li{ margin:0 auto;}
 
 #btn-learn-more{
     text-align: center;
-    margin: 0.35em 5em;
+    margin: 0.5em 5em;
     display:none;
     border: 1px #af2304 ridge;
     align-self: center;
@@ -355,9 +355,8 @@ footer {
     border-radius: 5px;
     color:#af2304;
     font-size:1.25rem;
-    display:flex;
-    justify-content: space-evenly;
-    margin-bottom: 4em;
+    
+    margin-bottom: 2em;
   
  
 }
@@ -384,11 +383,8 @@ footer {
 footer > a:hover {
     background-color:#CFD0CB;
      box-shadow: 1px 1px -1px #262401;
-    
- 
-
-
 }
+
 
 @media screen and (max-width:1050px){
     nav{flex-wrap:wrap;

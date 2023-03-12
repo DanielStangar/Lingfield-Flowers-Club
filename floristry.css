@@ -133,6 +133,9 @@ section{
     
 }
 
+.center {
+    text-align: center;
+}
 
 section > h3 {
     font-size: 1.5rem;

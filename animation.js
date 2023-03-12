@@ -6,7 +6,7 @@ const sloganThree = "You can learn a lot and get fresh inspiration from attendin
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
 
-const sloganSix = ["Sense of Place Flower Festival", "RHS Wisley Garden Flower Show","Surrey Area Show"]
+const sloganSix = ["Demonstration: Topless in Alps", "Demonstration: Listening in Color","Area Members Day"]
 
 
 
@@ -34,14 +34,14 @@ const replayBtn = document.getElementById('replay-btn');
 function promoMain(){
 
     setTimeout(stepOne, 500)
-    setTimeout(stepTwo, 5000)
-    setTimeout(stepThree, 8000)
-    setTimeout(stepFour, 14000)
-    setTimeout(stepFive, 18000)
-    setTimeout(stepSix, 22000)
-    setTimeout(stepSeven, 26000)
-    setTimeout(stepEight,32000)
-    setTimeout(stepNine,35000)
+    setTimeout(stepTwo, 4000)
+    setTimeout(stepThree, 7000)
+    setTimeout(stepFour, 13000)
+    setTimeout(stepFive, 17000)
+    setTimeout(stepSix, 21000)
+    setTimeout(stepSeven, 25000)
+    setTimeout(stepEight,33000)
+    setTimeout(stepNine,34000)
  
 
 
