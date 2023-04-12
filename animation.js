@@ -5,10 +5,7 @@ const sloganTwo = "Our aim is to help you design and construct your own flower a
 const sloganThree = "You can learn a lot and get fresh inspiration from attending one of our events"
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
-
-const sloganSix = ["Demonstration: Topless in Alps", "Demonstration: Listening in Color","Area Members Day"]
-
-
+const sloganSix = ["Demonstration: Listening in Color","In House Workshop", "East Horsley - Area Members Day"]
 
 const imageLeft = document.getElementById('img-left')
 const learnMore = document.getElementById('btn-learn-more')
@@ -53,13 +50,10 @@ function promoMain(){
         learnMore.style.animation = "appear 3s ease-in forwards"
         learnMore.style.color = '#af2304'
         learnMore.style.backgroundColor = '#f2d479'
-    //     samples.style.backgroundColor = '#f2d479'
-    //    samples.style.borderColor = '#af2304'
     }
 
     function stepTwo(){
-        slogan.style.animation = 'disappear 3s ease-out forwards'
-        
+        slogan.style.animation = 'disappear 3s ease-out forwards'       
         learnMore.style.animation = 'disappear 3s ease-out forwards'
        samples.style.borderColor ='#210000'
         samples.style.backgroundColor ='#f8f7f4'
@@ -73,26 +67,15 @@ function promoMain(){
         learnMore.style.animation = "appear 3s ease-in forwards"
         learnMore.href='membership.html'
         slogan.innerText = sloganTwo
-        slogan.style.animation = "appear 3s ease-in forwards"
-        // membership.style.backgroundColor = '#f2d479'
-        // membership.style.borderColor = '#af2304'
-        
-        
+        slogan.style.animation = "appear 3s ease-in forwards"  
         discover.style.textShadow = '5px 2px 20px grey'
         discover.style.borderColor = '#af2304'
         discover.style.color = '#af2304'
         discover.style.backgroundColor = '#f2d479'
         discover.style.backgroundImage='none'
-       
-       
-    
-        
-        
     }
 
     function stepFour(){
-
-       
         slogan.style.animation = 'disappear 3s ease-out forwards'
         learnMore.style.animation = 'disappear 3s ease-out forwards'
         membership.style.borderColor = '#210000'
@@ -100,40 +83,29 @@ function promoMain(){
         discover.style.color='#210000'
         discover.style.backgroundColor = '#d9d4cc'
         discover.style.borderColor='grey'
-        
-        
     }
 
     function stepFive(){
         learnMore.style.color = '#af2304'
-        learnMore.style.backgroundColor = '#f2d479'
-        
+        learnMore.style.backgroundColor = '#f2d479'  
         learnMore.href = 'floristry.html'
         slogan.innerText = sloganThree
         slogan.style.animation = "appear 3s ease-in forwards"
         learnMore.style.animation = "appear 3s ease-in forwards"
-        // floristry.style.backgroundColor = '#f2d479'
-        // floristry.style.borderColor = '#af2304'
-
         send.style.textShadow = '5px 2px 20px grey'
         send.style.borderColor = '#af2304'
         send.style.backgroundColor = '#f2d479'
         send.style.backgroundImage = 'none'
-        
-
     }
 
     function stepSix(){
-        
         slogan.style.animation = 'disappear 3s ease-out forwards'
         learnMore.style.animation = 'disappear 3s ease-out forwards'
         floristry.style.borderColor = '#210000'
         floristry.style.backgroundColor = '#f8f7f4'
-
         send.style.color = '#210000'
         send.style.borderColor = 'grey'
         send.style.backgroundColor = '#d9d4cc'
-
     }
 
     function stepSeven(){
@@ -144,9 +116,6 @@ function promoMain(){
         slogan.innerText = sloganFour
         slogan.style.animation = "appear 3s ease-in forwards"
         learnMore.style.animation = "appear 3s ease-in forwards"
-        // contact.style.backgroundColor = '#f2d479'
-        // contact.style.borderColor = '#af2304'
-
         come.style.textShadow = '5px 2px 20px grey'
         come.style.borderColor = '#af2304'
         come.style.color = '#af2304'
@@ -161,26 +130,18 @@ function promoMain(){
         learnMore.style.animation = 'disappear 3s ease-out forwards'
         contact.style.borderColor = '#210000'
         contact.style.backgroundColor = '#f8f7f4'
-
         come.style.color = '#210000'
         come.style.borderColor = 'grey'
         come.style.backgroundColor = '#d9d4cc'
     }
 
 
-    //const magnet =document.getElementById('magnet')
-
     function stepNine(){
         learnMore.style.animation = 'appear 3s ease-in forwards'
-        //learnMore.style.color = '#210000'
-       // learnMore.style.backgroundColor = 'white'
         learnMore.href = 'floristry.html'
         slogan.innerText = sloganFive
         slogan.style.animation = "appear 3s ease-in forwards"
         slogan.style.color='#af2304'
-        //learnMore.style.animation = 'disappear 4s ease-out forwards'
-        //lastSlogan.innerText = sloganSix
-        //lastSlogan.style.animation ='appear 7s linear forwards'
        const listItem = document.createDocumentFragment()
        for (let item in sloganSix){
             const li = document.createElement('li')
@@ -192,14 +153,9 @@ function promoMain(){
             lastSlogan.appendChild(listItem)
             lastSlogan.style.textAlign='center'
             lastSlogan.style.listStyleType='none'
-            lastSlogan.style.fontSize='1rem'
-           // magnet.style.height='250%'
-            
-            
-            
+            lastSlogan.style.fontSize='1rem'      
        }
     }    
-
 }
 promoMain()
 
