@@ -41,16 +41,12 @@ h1{
     text-align: center;
     border-radius: 5px;
     width:60%;
-    margin:10px auto;
     font-weight: 400;
     font-size: 2rem;
-
     background-image: linear-gradient(to top, #CFD0CB 0%, 82.33082592487335%, #8F7A4F 100%);
     box-shadow: 5px 5px 35px grey;
-    margin:0.5em;
     border-radius: 5px;
     max-height: 7em;
-    
     margin:0.5em  auto;
     border: 1px ridge #8c774f;
 }
@@ -286,7 +282,6 @@ img {
 
   
 }
-
 
 .lower{
     display:flex;
