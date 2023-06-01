@@ -5,8 +5,11 @@ const sloganTwo = "Our aim is to help you design and construct your own flower a
 const sloganThree = "You can learn a lot and get fresh inspiration from attending one of our events"
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
-const sloganSix = ["Demonstration: Listening in Colour",'In House "Have a Go" with a difference', 
-"East Horsley - Area Members Day", "Flower Arranging Demonstration by Sheila Adby"]
+const sloganSix = [
+"East Horsley - Area Members Day", 
+"Flower Arranging Demonstration by Sheila Adby",
+"Garden Visit to Wych Warren"
+]
 
 const imageLeft = document.getElementById('img-left')
 const learnMore = document.getElementById('btn-learn-more')
