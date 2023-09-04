@@ -332,6 +332,11 @@ img {
       box-shadow: 10px 10px 35px grey;
 }
 
+.emphasis {
+     color:#af2304;
+     background:#f2d479;
+}
+
 p {
     font-size: 1rem;
 }
