@@ -6,9 +6,9 @@ const sloganThree = "You can learn a lot and get fresh inspiration from attendin
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
 const sloganSix = [
-"RHS Wisley Garden Flower Show", 
-"Fun Quiz Night",
-"Annual General Meeting & Members Evening"
+"Inhouse Foam Free Autumnal Workshop", 
+"Floral Festivities Demonstration",
+"Christmas Social"
 ]
 
 const imageLeft = document.getElementById('img-left')

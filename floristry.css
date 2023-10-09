@@ -32,8 +32,8 @@ body {
     opacity: 0.9;
    font-family: 'EB Garamond', serif;
     background-image: url('pics/pngwing.com.png');
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-repeat: repeat-y;
+    background-size: 140%; 
     aspect-ratio: 45/25; 
     max-width:1500px;
     }
