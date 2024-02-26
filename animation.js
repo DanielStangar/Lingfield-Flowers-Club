@@ -6,9 +6,8 @@ const sloganThree = "You can learn a lot and get fresh inspiration from attendin
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
 const sloganSix = [
-"Inhouse Foam Free Autumnal Workshop", 
-"Floral Festivities Demonstration",
-"Christmas Social"
+"Illustrated talk by Annabel Alford-Warren",
+"Workshop with Jane Rickard"
 ]
 
 const imageLeft = document.getElementById('img-left')
@@ -153,7 +152,7 @@ function promoMain(){
             li.textContent = sloganSix[item]
             listItem.appendChild(li)
             listItem.appendChild(hr)
-            lastSlogan.style.animation ='appear 7s linear forwards'
+            lastSlogan.style.animation ='appear 4s linear forwards'
             lastSlogan.appendChild(listItem)
             lastSlogan.style.textAlign='center'
             lastSlogan.style.listStyleType='none'
