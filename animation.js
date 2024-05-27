@@ -6,7 +6,6 @@ const sloganThree = "You can learn a lot and get fresh inspiration from attendin
 const sloganFour = "or simply come to our club and spend valuable time in good company."
 const sloganFive = "Our upcoming club events"
 const sloganSix = [
-"Monthly Meeting and Demonstration by Vijay Bhatia",
 "A Demonstration by Ellouise Hasler-Stott",
 "The Surrey Area Show at Ashtead",
 "Lingfield Horticultural Show",
